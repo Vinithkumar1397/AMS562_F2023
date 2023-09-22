@@ -28,4 +28,4 @@ Outline the steps you took to complete the assignment. You can provide a list or
 ## Submission
 
 After completing the homework, submit your solution as a pull request to the `homeworks/hwX` branch of this repository.
-
+modified readme in hw1
