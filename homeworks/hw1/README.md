@@ -1,13 +1,12 @@
 # Homework Assignment 1
 
-This folder contains the materials for Homework Assignment X for the course AMS562_F2023.
+This folder contains the materials for Homework 1 for the course AMS562_F2023.
 
 ## Steps to Complete the Assignment
 
-This folder contains the materials for Homewo
 **Step 1: Setup SSH Authentication with GitHub**
 
-- I used ssh-keygen -t ed25519 -C [vinithkumar.pasula@stonybrook.edu ](mailto:vinithkumar.pasula@stonybrook.edu%20)�on terminal for sso authentication.
+- I used ssh-keygen -t ed25519 -C [vinithkumar.pasula@stonybrook.edu] on terminal for sso authentication.
 
 - To use the newly generated SSH key with GitHub, I added public key to your GitHub account.
 
@@ -27,8 +26,6 @@ This folder contains the materials for Homewo
 
 - Added a README file, .gitignore, and license.
 
-x
-
 **Step 3: Organize Repository Structure and commiting and pushing changes in main branch**
 
 - To work with your GitHub repository locally, we have to clone it to your computer using the following command :
@@ -39,27 +36,27 @@ x
 
 - cd AMS562_F2023
 
-- mkdir homeworks���
+- mkdir homeworks
 
 - mkdir midterm_project
 
 cd midterm_project and touch README.MD
 
-���� git add .
+     git add .
 
-���� git commit -m " added readme in midterm project"
+     git commit -m " added readme in midterm project"
 
-���� git push
+     git push
 
 - mkdir final_project
 
 cd midterm_project and touch README.MD
 
-����� git add .
+      git add .
 
-����� git commit -m " added readme in final project"
+      git commit -m " added readme in final project"
 
-����� git push
+      git push
 
 - touch README.md
 
@@ -102,7 +99,7 @@ This repository contains course materials for AMS562_F2023, including homework a
 
 **Step 5: Commit and Push Changes in homeworks/hw1 branch**
 
-�Commit Your Changes:
+ Commit Your Changes:
 
 -   git add.
 
@@ -110,21 +107,21 @@ This repository contains course materials for AMS562_F2023, including homework a
 
 - git push origin homeworks/hw1
 
-**Step 6:� Added Collaborator to GitHub Repository**
+**Step 6:Added Collaborator to GitHub Repository**
 
 -   On the GitHub website, navigated to my repository.
 -   "Settings" -> Collaborators" -> Enter "Ams562" -> Clicked "Add collaborator."
 
 **Step 7: Creating a pull request (PR) to wait for a merge from the homeworks/hw1 branch to the main branch**
 
--   git checkout homeworks/hw1�
+-   git checkout homeworks/hw1
 -   Ran this command to pull the latest changes from the remote repository to your local branch
--   git pull origin homeworks/hw1�
+-   git pull origin homeworks/hw1
 -   pushed changes to the**homeworks/hw1**branch on GitHub:
--   git push origin homeworks/hw1�
+-   git push origin homeworks/hw1
 
 **Created a Pull Request (PR) on GitHub**:
 
--   On the Github Repository I saw message indicating that I recently pushed to the�**homeworks/hw1**�branch and "Compare & pull request" button next to it.
--   I added �title and description to explain the changes you made in the README file.
--   I specified �the base branch as�**main**� and Created the pull request.
+-   On the Github Repository I saw message indicating that I recently pushed to the**homeworks/hw1**�branch and "Compare & pull request" button next to it.
+-   I added title and description to explain the changes you made in the README file.
+-   I specified the base branch as**main** and Created the pull request.
