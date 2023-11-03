@@ -25,7 +25,7 @@ To compile and execute the code, follow these steps:
 2. Navigate to the project directory containing the `Makefile`:
 
    ```sh
-   cd /path/to/your/project
+   cd AMS562_F2023/homeworks/hw4
    ```
 
 3. Run the `make` command to build the project:
