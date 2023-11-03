@@ -34,5 +34,5 @@ The `main` function is the entry point of the program. It handles command-line a
 To run the program, execute it in the following way:
 
 ```shell
-./program_name a b [maxit] eps
+./hw3 a b [maxit] eps
 
