@@ -8,6 +8,7 @@ The project is organized with the following directory structure:
 - `source/`: This directory includes the C++ source files.
 - `objdir/`: This is the object file directory, where intermediate compilation files are stored.
 - `output`: The executable program is generated in this directory.
+- `MakeFile`:The Makefile is used with the `make` command, which automatically reads the Makefile and compiles the source code into an executable(output)
 
 ## Prerequisites
 
