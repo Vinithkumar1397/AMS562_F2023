@@ -25,7 +25,7 @@ To compile and execute the code, follow these steps:
 2. Navigate to the project directory containing the `Makefile`:
 
    ```sh
-   cd /path/to/your/project
+   cd AMS562_F2023/homeworks/hw4
    ```
 
 3. Run the `make` command to build the project:
@@ -55,14 +55,3 @@ To clean up the project (remove object files and the executable), you can use th
 ```sh
 make clean
 ```
-
-## Author
-
-- [Your Name]
-
-## License
-
-This project is licensed under the [License Name] License - see the [LICENSE.md](LICENSE.md) file for details.
-```
-
-Make sure to replace `[Project Title]`, `[Your Name]`, `[License Name]`, and other placeholders with your specific project details. You can also customize this `README.md` further to provide more details about your project if needed.
