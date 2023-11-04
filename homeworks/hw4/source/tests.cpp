@@ -51,7 +51,9 @@ bool runLineTests() {
     
 
     Line line1(p3, p3);
-    allPassed &= double_equals(line.calculatelength(), 0); // Modified length*/
+    allPassed &= double_equals(line.calculatelength(), 0); // Modified length and it displayed the below mentioned exception when this is executed*/
+
+    
     // Test line with identical points
     bool exceptionThrown = false;
     try {
