@@ -1,8 +1,8 @@
 #include "square.h"
-#include <cmath>
-#include <stdexcept>  // Include this to use std::invalid_argument
+#include <cmath> // Include the cmath library for mathematical functions
+#include <stdexcept>  // Include this to use std::invalid_argument for exception handling
 
-// Constructor definition
+// Constructor definition for the Square class
 Square::Square(const Point& topLeftpoint, double LengthofSide) 
     : Rectangle(topLeftpoint, Point(topLeftpoint.getXCoordinate() + LengthofSide, topLeftpoint.getYCoordinate() - LengthofSide)) {
     // Validate sideLength
@@ -11,11 +11,11 @@ Square::Square(const Point& topLeftpoint, double LengthofSide)
     }
 }
 
-// Overridden area() method
+// Overridden area() method for the Square class
 double Square::area() const {
     double bottomrightX = bottomRight.getXCoordinate();
     double topleftx = topLeft.getXCoordinate();
 
-    double length = bottomrightX - topleftx; // Now accessible
-    return length * length; // No need for std::pow for squaring
+    double length = bottomrightX - topleftx; // Length of a side of the square, now accessible
+    return length * length; // Calculate the area of the square by squaring the side length
 }

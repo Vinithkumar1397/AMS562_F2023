@@ -1,4 +1,3 @@
-
 #include "point.h"
 #include "line.h"
 #include "rectangle.h"
@@ -47,14 +46,6 @@ bool runLineTests() {
     Line line(p1, p2);
     allPassed &= double_equals(line.calculatelength(), 13); // Modified length
 
-    /*
-     // Test 2 with identical points
-     Point p3(2.0, 2.0);
-    
-
-    Line line1(p3, p3);
-    allPassed &= double_equals(line.calculatelength(), 0); // Modified length*/
-
     // Test line with identical points
     bool exceptionThrown = false;
     try {
@@ -63,7 +54,6 @@ bool runLineTests() {
         exceptionThrown = true;
     }
     allPassed &= exceptionThrown;
-    
 
     if (allPassed) {
         std::cout << "Line tests passed!" << std::endl;
@@ -76,13 +66,13 @@ bool runLineTests() {
 
 bool runRectangleTests() {
     bool allPassed = true;
-//Test case 1: Normal values
+
+    // Test case 1: Normal values
     Point p1(1.0, 4.0);
     Point p2(7.0, 1.0); // Modified values
     Rectangle rect(p1, p2);
-    
 
-// Test case 2: Creating a rectangle with zero area
+    // Test case 2: Creating a rectangle with zero area
     Point zeroAreaPoint1(1.0, 1.0);
     Point zeroAreaPoint2(1.0, 1.0);
     Rectangle zeroAreaRect(zeroAreaPoint1, zeroAreaPoint2);

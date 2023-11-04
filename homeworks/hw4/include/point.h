@@ -1,20 +1,30 @@
+// ifndef directive to prevent multiple inclusions of this header
 #ifndef POINT_H
 #define POINT_H
 
+// Declare a class named Point
 class Point {
 private:
-    double x, y;
+    double x, y; // Declare private member variables for the Point class
 
 public:
-    Point(double x = 0.0, double y = 0.0); // Constructor with default parameters
+    // Constructor for Point class with default parameters
+    Point(double x = 0.0, double y = 0.0);
 
-    double getXCoordinate() const; // Getter for x
-    double getYCoordinate() const; // Getter for y
+    // Getter method to retrieve the x-coordinate
+    double getXCoordinate() const;
 
-    double distanceFromOrigin() const; // Distance from the origin (0,0)
-    double distanceFromPoint(const Point& other) const; // Distance from another point
+    // Getter method to retrieve the y-coordinate
+    double getYCoordinate() const;
+
+    // Method to calculate the distance from the origin (0,0)
+    double distanceFromOrigin() const;
+
+    // Method to calculate the distance from another Point object
+    double distanceFromPoint(const Point& other) const;
 
     // ... other member functions if needed
+
 };
 
 #endif //POINT_H
