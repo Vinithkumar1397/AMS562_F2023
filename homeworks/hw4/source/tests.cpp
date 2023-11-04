@@ -46,6 +46,12 @@ bool runLineTests() {
     Line line(p1, p2);
     allPassed &= double_equals(line.calculatelength(), 13); // Modified length
 
+    /*  // Test 2 with identical points
+     Point p3(2.0, 2.0);
+    
+
+    Line line1(p3, p3);
+    allPassed &= double_equals(line.calculatelength(), 0); // Modified length*/
     // Test line with identical points
     bool exceptionThrown = false;
     try {
