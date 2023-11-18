@@ -46,21 +46,6 @@ To execute the program, use the following command:
 ./output
 ```
 
-## Output Interpretation
-
-The program contains test functions in `main.cpp` to check the correctness of the implemented classes and methods. Upon successful execution, you should see output indicating whether the tests have passed.
-
-For example:
-
-```bash
-Matrix normalization test passed!
-Rank vector initialization test passed!
-PageRank test passed!
-PageRank convergence test passed!
-All tests passed!
-```
-
-If any of the tests fail, an error message will be displayed indicating which test did not pass.
 
 ## Cleaning Up
 
